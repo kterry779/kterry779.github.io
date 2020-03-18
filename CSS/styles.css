@@ -1,0 +1,48 @@
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+  * Remove when done
+*/
+
+* {
+    outline: 1px dotted black;
+}
+
+/******************************
+Main Container/Wrapper
+******************************/
+main {
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/******************************
+Biography
+******************************/
+.bio {
+  text-align: center;
+}
+
+#rando-image {
+ 
+}
+
+/******************************
+Flickity Styling
+******************************/
+/* Style carousel container */
+.carousel {
+  background: gray;
+}
+
+/* Style individual carousel-cell content */
+.carousel .cell {
+  background: gray;
+  width: 100%;
+}
+
+main{
+    background:blue;
+}
