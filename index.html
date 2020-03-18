@@ -4,116 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Katrina Terry Portfolio</title>
+    <title>Katrina Terry</title>
 
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <!-- Library Styling -->
-
-    <!-- My Styles -->
     <link rel="stylesheet" href="css/styles.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Squada+One&display=swap" rel="stylesheet"> 
-
-
-
 </head>
 <body>
-  <!-- Wrapper Container -->
-  <main>
-
-    <section class="bio">
-
-    <!-- Splitting Characters -->
-    <h1>Katrina Terry</h1>
-
-    <!-- Random Image -->
-    <img src="http://placehold.it/200?text=Image 1" 
-        alt="Placholder"
-        id="rando-image">
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fuga sit iusto dolore illo quisquam dicta eius earum aliquam? Adipisci quis consequuntur sit nostrum cupiditate? Facilis exercitationem tempora doloremque aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi odio hic optio necessitatibus ducimus earum accusantium exercitationem, soluta voluptate nihil. Pariatur iure minus consequatur voluptate nihil placeat ipsa suscipit? Vel.</p>
     
-  </section>
-    
-    <!-- Slider/Carousel -->
-    <aside class="carousel">
 
-        <section class="cell">
-          
-          <!-- Your Content -->
-          <h3><a href="#">Header</a></h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur.</p>
-        
-        </section>
-        
-        <section class="cell">
-          
-          <h3><a href="#">Header</a></h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse debitis autem rerum magni omnis, id perspiciatis numquam eius consequuntur, qui quis reiciendis iusto suscipit quas officiis doloribus unde aliquid quibusdam!</p>
-        
-        </section>
-        
-        <section class="cell">
-          
-          <h3><a href="#">Header</a></h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur.</p>
-        
-        </section>  
-      
-    </aside>
 
-    <!-- Lightbox Gallery -->
-    <div id="galleryContainer">
-      
-      <h3>Portfolio</h3>
+<h1>Katrina Terry</h1>
 
-   <a href="https://picsum.photos/1024/768">
-    <img src="http://placehold.it/100" alt="Thumb">
-  </a>
+<ul>
+    <li>Sushi</li>
+    <li>Track</li>
+    <li>Hiking</li>
+</ul>
+
+<img src="IMG/me.png" alt="Katrina">
+
+
+<footer>
+
+<form name="contact" method="POST" data-netlify="true"
+data-netifly="true"
+data-netlify-recaptcha="true">
   
-  <a href="https://picsum.photos/1024/768">
-    <img src="http://placehold.it/100" alt="Thumb">
-  </a>
-        <a href="https://picsum.photos/1024/768">
-    <img src="http://placehold.it/100" alt="Thumb">
-  </a>
+    <p>
+      <label>Your Name: <input type="text" name="name"  required/></label>   
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <label>Your Role: <select name="role[]" multiple>
+        <option value="leader">Leader</option>
+        <option value="follower">Follower</option>
+      </select></label>
+    </p>
+    <p>
+      <label>Message: <textarea name="message" recquired></textarea></label>
+    </p>
 
-    </div>
+    <p>
+        <input type="file">
+      </p>
 
-    <!-- Contact Form -->
-    <footer>
 
-      <h3>Contact</h3>
+    <div data-netlify-recaptcha="true"></div>
 
-      <form name="contact"
-            method="POST" 
-            data-netlify="true"
-            data-netlify-recaptcha="true">
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>   
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <div data-netlify-recaptcha="true"></div>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
-      
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
+</footer>
 
-    </footer>
 
-  </main>
-
-      <!-- JS Libraries -->
-      <script src="js/plyr.min.js"></script>
-      <!-- My Scripts -->
-      <script src="js/scripts.js"></script>
 
 </body>
 </html>
