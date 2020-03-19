@@ -19,3 +19,16 @@ p{
 .img{
     width:100%;
 }
+
+footer{
+    background:url("/IMG/wood.jpg");
+    background-size: 100%;
+    padding: 2vh;
+  }
+
+  form{
+      background:lightgrey;
+      color:black;
+      padding:2vh;
+      width:20vw;
+  }
