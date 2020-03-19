@@ -4,7 +4,8 @@
 }
 
 #header1{
-    display:flex;
+  display:inline;
+
 }
 
 h1{
@@ -22,7 +23,8 @@ p{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 15px;
-	justify-content: center;
+    justify-content: center;
+    margin-top:15px;
 }
 
 .img{
@@ -41,3 +43,19 @@ footer{
       padding:2vh;
       width:20vw;
   }
+
+  @media only screen 
+  and (min-width: 0) 
+  and (max-width: 48em)  { 
+    
+    /* Diagnostic Styling. Delete When Done. */
+
+    #header1{
+        display:grid;
+    }
+
+    form{
+        width:60vw;
+    }
+  
+}
