@@ -1,3 +1,11 @@
+#profile1{
+    width:300px;
+    height:400px;
+}
+
+#header1{
+    display:flex;
+}
 
 h1{
     font-family: 'Arimo', sans-serif;
@@ -5,13 +13,14 @@ h1{
 
 p{
     font-family: 'Montserrat', sans-serif;
+    max-width:800px;
 }
 
 
 
 #gallery {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 15px;
 	justify-content: center;
 }
