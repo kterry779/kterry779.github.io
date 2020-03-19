@@ -1,0 +1,21 @@
+
+h1{
+    font-family: 'Arimo', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#gallery {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px;
+	justify-content: center;
+}
+
+.img{
+    width:100%;
+}
